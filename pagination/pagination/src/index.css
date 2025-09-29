@@ -1,0 +1,36 @@
+.post-container{
+  width:520px;
+  height:120px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+img{
+  height:150px;
+  width:100px;
+  border-radius: 10px;
+}
+.pagination-container{
+  margin-top: 50px;
+  width: 550px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.page-btn{
+background-color: black;
+padding: 1rem;
+border-radius: 10px;
+color: white;
+}
+.active-btn{
+  background-color: white;
+  color:black;
+  border-radius: 10px;
+  padding: 1rem;
+  border: solid 2px;
+}
+.page-btn:hover{
+  transform: scale(0.8);
+}

@@ -45,7 +45,7 @@ const Toast = () => {
            
         </div>
         <div className="btn-Container">
-            <button className="button" onClick={()=>handleAdd("Sucess",'success')}>Success Toast</button><br/>
+            <button onClick={()=>handleAdd("Sucess",'success')}>Success Toast</button><br/>
             <button onClick={()=>handleAdd("Info","info")}>Info Toast</button><br/>
             <button onClick={()=>handleAdd("Warning","warning")}>Warning Toast</button><br/>
             <button onClick={()=>handleAdd("Error","error")}>Error Toast</button>
